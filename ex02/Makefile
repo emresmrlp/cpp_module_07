@@ -1,0 +1,32 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ysumeral <ysumeral@student.42istanbul.c    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2026/02/05 09:41:45 by ysumeral          #+#    #+#              #
+#    Updated: 2026/02/05 09:49:01 by ysumeral         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+CXX 		=	c++
+CXXFLAGS	=	-Wall -Wextra -Werror -std=c++98
+SRC			=	main.cpp
+OBJ			=	$(SRC:.cpp=.o)
+NAME		=	array
+
+all: $(NAME)
+
+$(NAME): $(OBJ)
+	$(CXX) $(CXXFLAGS) -o $(NAME) $(OBJ)
+
+clean:
+	rm -f $(OBJ)
+
+fclean: clean
+	rm -f $(NAME)
+
+re: fclean all
+
+.PHONY: all clean fclean re
