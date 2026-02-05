@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   iter.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ysumeral <ysumeral@student.42istanbul.c    +#+  +:+       +#+        */
+/*   By: ysumeral <ysumeral@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/04 17:47:34 by ysumeral          #+#    #+#             */
-/*   Updated: 2026/02/05 09:39:07 by ysumeral         ###   ########.fr       */
+/*   Updated: 2026/02/05 12:43:22 by ysumeral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
